@@ -1,0 +1,29 @@
+{
+  "name": "notification-app",
+  "version": "1.0.0",
+  "description": "Hello Notification App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aaditya1998/Notification-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aaditya1998/Notification-App/issues"
+  },
+  "homepage": "https://github.com/Aaditya1998/Notification-App#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "nodemon": "^3.0.1",
+    "novu": "^0.18.0"
+  }
+}

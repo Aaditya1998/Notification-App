@@ -8,7 +8,7 @@ export const inAppNotification = async (description, Id) => {
 
   await novu.trigger("in-app", {
     to: {
-      subscriberId: "64f23ae4bfc062112c128dfc",
+      subscriberId: "Aditya",
     },
     payload: {
       description: description,

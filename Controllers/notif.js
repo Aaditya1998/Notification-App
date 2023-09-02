@@ -8,7 +8,7 @@ export const createNotif = async (req, res) => {
   });
   try {
     await newNotif.save();
-    await inAppNotification(description, "Aditya");
+    await inAppNotification(description, "64f23ae4bfc062112c128dfc");
     res.status(201).json(newNotif);
   } catch (error) {
     res.status(409).json({ message: error });
